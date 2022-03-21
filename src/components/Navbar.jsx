@@ -39,7 +39,7 @@ const Nav = styled.nav`
   .search {
     background-color: #212121;
     display: flex;
-    align-items: center;
+    align-items: center; 
     gap: 1rem;
     padding: 1rem 8rem 1rem 1rem;
     border-radius: 1rem;
