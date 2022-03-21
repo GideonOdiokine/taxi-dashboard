@@ -29,5 +29,7 @@ const Dashboard = () => {
 export default Dashboard;
 
 const Section = styled.section`
-margin-left:18vw;
+  margin-left: 18vw;
+  padding: 2rem;
+  height: 100%;
 `;
