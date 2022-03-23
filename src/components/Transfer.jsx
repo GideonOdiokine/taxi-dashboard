@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import avatarImage from "../assets/avatarImage.jpeg";
@@ -50,9 +51,9 @@ export default function Transfers() {
           );
         })}
       </div>
-      <a className="view" href="#">
+      <Link className="view" to="/">
         View all <HiArrowNarrowRight />
-      </a>
+      </Link>
     </Section>
   );
 }

@@ -31,15 +31,14 @@ const Nav = styled.nav`
         margin-left: 0.5rem;
         color: #ffc107;
         letter-spacing: 0.2rem;
-        font-family: 'Roboto', sans-serif;
-
+        font-family: "Roboto", sans-serif;
       }
     }
   }
   .search {
     background-color: #212121;
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 1rem;
     padding: 1rem 8rem 1rem 1rem;
     border-radius: 1rem;
@@ -50,14 +49,15 @@ const Nav = styled.nav`
       background-color: transparent;
       border: none;
       color: #ffc107;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       letter-spacing: 0.3rem;
       &:focus {
         outline: none;
       }
       &::placeholder {
         color: #ffc107;
-        font-family:  sans-serif;
+        font-family: sans-serif;
       }
     }
-`
+  }
+`;

@@ -1,4 +1,5 @@
 import React, { useState,} from "react";
+import {Link} from 'react-router-dom'
 import styled from "styled-components";
 import { MdSpaceDashboard } from "react-icons/md";
 import { RiDashboard2Fill } from "react-icons/ri";
@@ -7,8 +8,8 @@ import { GiTwirlCenter } from "react-icons/gi";
 import { BsFillChatTextFill } from "react-icons/bs";
 import { IoSettings } from "react-icons/io5";
 import { FiLogOut } from "react-icons/fi";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { VscChromeClose } from "react-icons/vsc";
+// import { GiHamburgerMenu } from "react-icons/gi";
+// import { VscChromeClose } from "react-icons/vsc";
 
 const Sidebar = () => {
   const [currentLink, setCurrentLink] = useState(1);
@@ -27,64 +28,64 @@ const Sidebar = () => {
                 onClick={() => setCurrentLink(1)}
                 className={currentLink === 1 ? "active" : ""}
               >
-                <a href="#">
+                <Link to="/" >
                   <MdSpaceDashboard />
                   <span>Dashboard</span>
-                </a>
+                </Link>
               </li>
               <li
                 onClick={() => setCurrentLink(2)}
                 className={currentLink === 2 ? "active" : ""}
               >
-                <a href="#">
+                <Link to="/" >
                   <RiDashboard2Fill />
                   <span>Riders</span>
-                </a>
+                </Link>
               </li>
               <li
                 onClick={() => setCurrentLink(3)}
                 className={currentLink === 3 ? "active" : ""}
               >
-                <a href="#">
+                <Link to="/" >
                   <FaAddressCard />
                   <span>Payment Details</span>
-                </a>
+                </Link>
               </li>
               <li
                 onClick={() => setCurrentLink(4)}
                 className={currentLink === 4 ? "active" : ""}
               >
-                <a href="#">
+                <Link to="/" >
                   <GiTwirlCenter />
                   <span>Learning Center</span>
-                </a>
+                </Link>
               </li>
               <li
                 onClick={() => setCurrentLink(5)}
                 className={currentLink === 5 ? "active" : ""}
               >
-                <a href="#">
+                <Link to="/" >
                   <BsFillChatTextFill />
                   <span>FAQ</span>
-                </a>
+                </Link>
               </li>
               <li
                 onClick={() => setCurrentLink(6)}
                 className={currentLink === 6 ? "active" : ""}
               >
-                <a href="#">
+                <Link to="/" >
                   <IoSettings />
                   <span>Settings</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
         <div className="logout">
-          <a href="#">
+          <Link to="/">
             <FiLogOut />
             <span>Logout</span>
-          </a>
+          </Link>
         </div>
       </Section>
     </>
