@@ -31,7 +31,7 @@ const Nav = styled.nav`
         margin-left: 0.5rem;
         color: #ffc107;
         letter-spacing: 0.2rem;
-        font-family:  sans-serif;
+        font-family: 'Roboto', sans-serif;
 
       }
     }
@@ -50,7 +50,7 @@ const Nav = styled.nav`
       background-color: transparent;
       border: none;
       color: #ffc107;
-      font-family:  sans-serif;
+      font-family: 'Roboto', sans-serif;
       letter-spacing: 0.3rem;
       &:focus {
         outline: none;
@@ -60,4 +60,4 @@ const Nav = styled.nav`
         font-family:  sans-serif;
       }
     }
-`;
+`
