@@ -51,4 +51,13 @@ const Section = styled.section`
       gap: 1rem;
     }
   }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    margin-left: 0;
+    .grid {
+      .row__one,
+      .row__two {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
 `;
