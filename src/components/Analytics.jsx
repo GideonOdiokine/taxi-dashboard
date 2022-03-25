@@ -85,11 +85,15 @@ const Section = styled.section`
   }
   @media screen and (min-width: 280px) and (max-width: 720px) {
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+<<<<<<< HEAD
     /* .analytic {
       &:nth-of-type(3),
       &:nth-of-type(4) {
         flex-direction: row-reverse;
       }
     } */
+=======
+    
+>>>>>>> 2247dddde2ba2c97134dad73248d0bcce0012926
   }
 `;
