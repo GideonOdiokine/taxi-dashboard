@@ -52,7 +52,7 @@ const Sidebar = () => {
                 onClick={() => setCurrentLink(2)}
                 className={currentLink === 2 ? "active" : ""}
               >
-                <Link to="/">
+                <Link to="/riders">
                   <RiDashboard2Fill />
                   <span>Riders</span>
                 </Link>
@@ -119,7 +119,7 @@ const Sidebar = () => {
               onClick={() => setCurrentLink(2)}
               className={currentLink === 2 ? "active" : ""}
             >
-              <Link to="/">
+              <Link to="/riders">
                 <RiDashboard2Fill />
                 <span>Riders</span>
               </Link>
